@@ -1,0 +1,146 @@
+@import url(./essentials.css);
+body {
+  background-color: #fafafa !important;
+}
+#navigation {
+  .navbar-brand {
+    img {
+      max-width: 200px;
+    }
+  }
+}
+#three-canvas {
+  position: fixed; /* lock to viewport */
+  top: 0;
+  left: 0;
+  width: 100vw; /* fit exactly the viewport width */
+  height: 100vh; /* fit exactly the viewport height */
+  display: block;
+  z-index: 0;
+  overflow: hidden;
+}
+.features-slider {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features-slider h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feature-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: bold;
+  color: #3a2b1d;
+  text-align: center;
+  margin: 0px 20px;
+}
+
+.feature-item img {
+  width: 25px;
+  height: 25px;
+}
+
+.cards {
+  border: 2px solid #62626226;
+  border-radius: 15px;
+  transition: 0.3s all;
+  height: 100%;
+  min-height: 450px;
+  &:hover {
+    background-color: var(--primary) !important;
+    transition: 0.3s all;
+    h3 {
+      color: var(--whiter) !important;
+    }
+    p {
+      color: var(--whiter) !important;
+    }
+  }
+}
+.cards_core,
+.cards_core_lg {
+  border: 2px solid #ffffffbf;
+  border-radius: 15px;
+  transition: 0.3s all;
+}
+.cards_core {
+  height: 400px;
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+.cards_core_lg {
+  height: 815px;
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.wrapper {
+  img {
+    width: 430px;
+  }
+}
+#form_contact {
+  .form-control {
+    background-color: var(--primary);
+    color: var(--whiter);
+    border: 2px solid #ffffffbf;
+    height: 50px;
+  }
+  .form-select {
+    background-color: var(--primary);
+    color: var(--whiter);
+    border: 2px solid #ffffffbf;
+    height: 50px;
+  }
+  label {
+    color: #fff;
+    font-size: 20px;
+  }
+  &::placeholder {
+    color: var(--whiter) !important;
+  }
+  textarea {
+    height: 200px !important;
+  }
+}
+
+::placeholder {
+  color: #fff;
+}
+
+#reviews {
+  .review_card {
+    border: 2px solid #ffffffbf;
+    border-radius: 10px;
+    padding: 15px 30px;
+    height: 100%;
+    min-height: 450px;
+    p {
+      height: 150px;
+    }
+  }
+}
+.review_slider .slick-slide {
+  margin: 0 10px; /* adjust the 10px as per your need */
+}
+.socials {
+  a {
+    &:hover {
+      background-color: var(--secondary) !important;
+    }
+  }
+}
+.border-top {
+  border-top: 1px solid #ffffff80 !important;
+}

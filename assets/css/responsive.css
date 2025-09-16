@@ -1,0 +1,99 @@
+@media (max-width: 1367px) {
+  .fs-20 {
+    font-size: 16px;
+  }
+  .fs-104 {
+    font-size: 80px;
+  }
+  .fs-71 {
+    font-size: 50px;
+  }
+  .fs-35 {
+    font-size: 30px;
+  }
+  .fs-26 {
+    font-size: 16px;
+  }
+  .fs-29 {
+    font-size: 24px;
+  }
+  .cards_core_lg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards_core {
+    height: 450px;
+  }
+  .cards_core_lg {
+    height: 915px;
+  }
+  .fs-32 {
+    font-size: 20px;
+  }
+  #scroll_img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fs-104 {
+    font-size: 45px;
+  }
+  #scroll_img {
+    width: 100px;
+    height: 100px;
+  }
+  .fs-71 {
+    font-size: 33px;
+  }
+  .fs-35 {
+    font-size: 25px;
+  }
+  .cards {
+    min-height: 350px;
+  }
+  .cards_core {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cards_core_lg {
+    height: 610px;
+  }
+  #contact {
+    .wrap {
+      height: 900px;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+  .review_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  .navbar-collapse {
+    flex-grow: 1;
+    flex-basis: 100%;
+    align-items: center;
+    background: var(--primary);
+    padding: 30px;
+    border-end-end-radius:15px;
+    border-end-start-radius: 15px;
+  }
+  .navbar-nav{
+    gap: 1.5rem !important;
+  }
+}
