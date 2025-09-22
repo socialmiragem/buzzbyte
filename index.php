@@ -24,6 +24,8 @@
     <!-- includes -->
     <?php include './includes/navigation.php'; ?>
     <?php include './includes/hero.php'; ?>
+    <!-- <?php include './includes/hero_test.php'; ?>
+     -->
     <?php include './includes/slider.php'; ?>
     <?php include './includes/digital_growth.php'; ?>
     <?php include './includes/core_services.php'; ?>

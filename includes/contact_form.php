@@ -6,7 +6,7 @@
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="row m-0">
                 <div class="col-md-12">
-                    <h2 class="fs-71 text-uppercase text-whiter text-center fw-bold">
+                    <h2 class="fs-71 text-uppercase text-whiter text-center  ">
                         <span class="text-secondary">Let’s Talk </span>– We’re Ready When You Are
                     </h2>
                 </div>
@@ -31,11 +31,13 @@
                         <div class="col-md-6 mt-3">
                             <label for="service">Select Service*</label>
                             <select name="service" id="service" class="form-select">
-                                <option value="0">Website Design & Dev</option>
-                                <option value="0">Social Media Managment</option>
-                                <option value="0">Seo</option>
-                                <option value="0">Branding</option>
-                                <option value="0">GOOGLE / META / TIKTOK ADS</option>
+                                <option value="0" disabled >Please Select</option>
+                                <option value="Website Design & Dev">Website Design & Dev</option>
+                                <option value="Social Media Management">Social Media Management</option>
+                                <option value="SEO">SEO</option>
+                                <option value="Branding">Branding</option>
+                                <option value="Ads">GOOGLE / META / TIKTOK ADS</option>
+
                             </select>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 <div id="core" class="py-md-5 py-3 px-2 px-md-5 position-relative bg-primary">
     <div class="row m-0">
         <div class="col-md-12">
-            <h2 class="fs-71 text-uppercase text-whiter text-center fw-bold">
+            <h2 class="fs-71 text-uppercase text-whiter text-center  ">
                 explore our  <span class="text-secondary">core services</span>
             </h2>
         </div>

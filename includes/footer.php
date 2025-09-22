@@ -13,19 +13,19 @@
                     <li>
                         <a href="tel:(732) 588-8111" class="text-whiter text-decoration-none text-capitalize">
                             <span class="text-grey me-2">phone:</span>
-                            (732) 588-8111
+                            <span class="text--hover">(732) 588-8111 </span>
                         </a>
                     </li>
                     <li class="py-2">
                         <a href="mailto:info@buzzbytedigital.com" class="text-whiter text-decoration-none text-capitalize">
                             <span class="text-grey me-2">email:</span>
-                            info@buzzbytedigital.com
+                            <span class="text--hover">@buzzbytedigital.com </span>
                         </a>
                     </li>
                     <li>
                         <a href="" class="text-whiter text-decoration-none text-capitalize">
                             <span class="text-grey me-2">location:</span>
-                            Gulshan-e-Iqbal, Karachi 75300
+                            <span class="text--hover">Gulshan-e-Iqbal, Karachi 75300 </span>
                         </a>
                     </li>
                 </ul>
@@ -36,7 +36,7 @@
                     <a href="" class="m-2 bg-white text-primary fs-32 px-2 py-1  d-inline-block rounded-3"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="" class="m-2 bg-white text-primary fs-32 px-2 py-1 d-inline-block rounded-3"><i class="fa-brands fa-instagram"></i></a>
                     <a href="" class="m-2 bg-white text-primary fs-32 px-2 py-1 d-inline-block rounded-3"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="" class="m-2 bg-white text-primary fs-32 px-2 py-1 d-inline-block rounded-3"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/buzzbytedigital/" target="_blank" class="m-2 bg-white text-primary fs-32 px-2 py-1 d-inline-block rounded-3"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="" class="m-2 bg-white text-primary fs-32 px-2 py-1 d-inline-block rounded-3"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </div>

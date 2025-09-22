@@ -36,6 +36,12 @@
     width: 200px;
     height: 200px;
   }
+  .cards {
+    min-height: 380px;
+  }
+  .horizontal-scoll-wrapper {
+    height: 570px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -90,10 +96,16 @@
     align-items: center;
     background: var(--primary);
     padding: 30px;
-    border-end-end-radius:15px;
+    border-end-end-radius: 15px;
     border-end-start-radius: 15px;
   }
-  .navbar-nav{
+  .navbar-nav {
     gap: 1.5rem !important;
+  }
+  .scroll-wrap {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: inline-block;
   }
 }

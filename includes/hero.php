@@ -1,20 +1,29 @@
 <section class="hero position-relative vh-100">
 
-<canvas id="three-canvas"></canvas>
-<div class="hero-text overflow-hidden position-absolute start-50 top-50 translate-middle w-100">
-    <h2 class="text-white text-center fs-104 fw-bold text-uppercase">
-        Stop Letting Competitors
-        <span class="d-block text-secondary">Steal Your Customers</span>
-    </h2>
-</div>
-<div class="bottom-0 end-0 position-absolute z-3 m-5">
-    <div class="wrap">
-        <img src="./assets/images/scroll.png" alt="" class="img-fluid" id="scroll_img">
+    <canvas id="three-canvas"></canvas>
+    <div class="hero-text overflow-hidden position-absolute start-50 top-50 translate-middle w-100">
+        <h2 class="text-white text-center fs-104   text-uppercase">
+            Stop Letting Competitors
+            <span class="d-block text-secondary">Steal Your Customers</span>
+        </h2>
     </div>
-</div>
+    <div class="bottom-0 end-0 position-absolute z-3 m-5">
+        <div class="wrap">
+            <a href="#digital-growth">
+                <div class="scroll-wrap">
+                    <div class="ring">
+                        <img src="./assets/images/rotate.png" alt="Scroll Down Text" draggable="false">
+                    </div>
+                    <div class="center">
+                        <img src="./assets/images/arrow.png" alt="Scroll Down Arrow" draggable="false">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
 
 <script>
     const canvas = document.getElementById('three-canvas');

@@ -2,6 +2,9 @@
 body {
   background-color: #fafafa !important;
 }
+h2 {
+  font-weight: 900 !important;
+}
 #navigation {
   .navbar-brand {
     img {
@@ -79,6 +82,7 @@ body {
 }
 .cards_core_lg {
   height: 815px;
+  text-align: center;
   .icon {
     width: 80px;
     height: 80px;
@@ -143,4 +147,114 @@ body {
 }
 .border-top {
   border-top: 1px solid #ffffff80 !important;
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.25rem #fcfc4625;
+}
+.form-select option {
+  text-transform: uppercase !important;
+}
+.spline-watermark {
+  display: none !important ;
+}
+
+.scroll-wrap {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  display: inline-block;
+}
+
+/* rotating ring */
+.scroll-wrap .ring {
+  /* position: absolute; */
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-wrap .ring img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: scroll-spin 6s linear infinite;
+}
+
+/* fixed arrow in center */
+.scroll-wrap .center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 40%;
+}
+
+.scroll-wrap .center img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+@keyframes scroll-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text--hover:hover {
+  color: var(--secondary) !important;
+}
+
+.scroll-wrap .center img:hover {
+  filter: sepia(1);
+}
+
+a.bg-secondary:hover {
+  background-color: var(--whiter) !important;
+  transition: 0.3s all;
+}
+.cards_core:hover,
+.cards_core_lg:hover {
+  border-color: var(--secondary) !important;
+  transition: 0.3s all;
+}
+
+.horizontal-scoll-wrapper {
+  overflow: hidden;
+  height: 700px;
+}
+
+.horizontal {
+  display: flex;
+  height: 100%;
+}
+
+.horizontal > div {
+  display: flex;
+  flex-shrink: 0;
+  padding: 0 5px;
+}
+
+.horizontal > div:first-child {
+  padding: 0 5px 0 15px;
+}
+
+.horizontal > div:last-child {
+  padding: 0 15px 0 5px;
+}
+
+.horizontal .card {
+  align-items: stretch;
+  /* width: 540px; */
+  padding: 50px 40px;
+  background: #252525;
+  border-radius: 38px;
+  color: #f6f2e8;
 }

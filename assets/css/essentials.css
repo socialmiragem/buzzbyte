@@ -19,10 +19,11 @@
   font-family: "Plus Jakarta Sans", sans-serif !important;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Rethink Sans", sans-serif !important;
 }
-h3,
+
 h4,
 h5,
 h6,
@@ -30,7 +31,6 @@ p,
 li,
 a,
 button,
-span,
 div {
   font-family: "Plus Jakarta Sans", sans-serif !important;
 }

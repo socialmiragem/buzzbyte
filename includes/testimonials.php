@@ -2,7 +2,7 @@
     <div id="reviews" class="position-relative py-5 bg-primary">
         <div class="row mx-0">
             <div class="col-md-12">
-                <h2 class="fs-71 text-uppercase text-whiter text-center fw-bold">
+                <h2 class="fs-71 text-uppercase text-whiter text-center  ">
                     Success Through <span class="text-secondary">Their Eyes</span>
                 </h2>
             </div>
@@ -109,6 +109,10 @@
             dots: false,
             infinite: true,
             arrows: false,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 3000, 
+            cssEase: 'linear', 
             responsive: [{
                     breakpoint: 768,
                     settings: {
